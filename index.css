@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    width: 600px;
+} 
+
+.header {
+    background-color: aquamarine;
+    width: 600px;
+    height: 150px;
+    text-align: center;
+}
+
+/* All Menu Items */
+.menu-items-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Smythe;
+}
+
+/* Individual Menu Item */
+.menu-item {
+    display: flex;
+    background-color: #FFF;
+    margin-top: 50px;
+    border-bottom: 1px solid #D2D2D2;
+    width: 500px;
+    height: 140px;
+}
+
+/* Item Add Icon Div */
+.add-icon {
+    margin-left: auto;
+    margin-right: 20px;
+    align-items: center;
+    margin-top: 30px; 
+}
+
+/* Individual Properties of Menu Items  */
+.item-emoji {
+    font-size: 78px;
+    margin-right: 30px;   
+    margin-top: 0;
+}
+.item-name {
+    font-size: 28px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.item-description {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.item-price {
+    font-size: 20px;
+    margin-top: 5px;
+}
+ /* Item Add Icon Div */
+ .add-icon {
+    margin-left: auto;
+    margin-right: px;
+    align-items: center;
+    margin-top: 30px;
+    width: 40px;
+    height: 40px;   
+    border: 1px solid #D2D2D2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-icon i {
+   font-size: 24px;
+   color: #3C3C3C; 
+}
+
+/* Ordered Container */
+
+.ordered-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 508px;
+    min-height: 140px;
+    font-family: Smythe;
+    
+}
+.center{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 28px;
+}
+.order {
+    display: flex;
+    gap: 10px;
+    color: #000;    
+    font-size: 28px;
+}
+
+.total-price {
+    display: flex;
+    color: #0E0E0E;
+    font-size: 28px;
+    font-weight: 400;
+    
+}
+.order-numbers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    
+}
+.remove-btn {
+    border: none;
+    background: none;
+    color: #BBB;
+    font-family: Verdana;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.complete-order-btn {
+    border-radius: 3px;
+    background: #16DB99;
+    width: 508px;
+    padding: 18px 18px ;
+    color: #FFF;
+    border: none;
+    font-family: Verdana;
+    font-size: 16px;
+    font-weight: 700;
+}
+/* Payment Form */
+.payment-form {
+    background-color: #FFF;
+    position: fixed;
+    width: 524px;
+    height: 542.24px;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 3.89px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    display: none;
+    
+}
+form h1 {
+    text-align: center;
+    border: 2px solid white;
+    color: #000;
+    font-family: Verdana;
+    font-size: 24px;
+    margin: 42px auto;
+    
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+}
+input {
+    height: 71px;
+    width: 476px;
+    background-color: #FFF;
+    display: flex;
+    font-family: Verdana;
+    border-radius: 3.89px;
+    border: 1.297px solid #757575;      
+}
+.pay-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 70px;
+    width: 475px;
+    border-radius: 3.89px;
+    background: #16DB99;
+    color: white;
+    margin-top: 50px;
+    border: none;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 700;  
+}
+.confirm-order-message {
+    width: 504px;
+    height: 120px;
+    border-radius: 3px;
+    background: #ECFDF5;
+    color: #065F46;
+    font-size: 32px;
+    text-align: center;
+}

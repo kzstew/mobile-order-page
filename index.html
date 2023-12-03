@@ -1,0 +1,46 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <!-- Google Fonts -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+       <!-- Icons -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="header">
+                <img src="/images/header.png" alt="pizza header">
+            </div>
+        </header>
+        <main>
+            <section class="menu-items-container" id="menu-items">
+                <!-- Menu Items -->
+            </section> 
+            <section id="order-items">
+                <div class="ordered-container" id="ordered-container">
+                    </div>
+                <!-- Items in Order -->
+            </section> 
+              <!-- Payment Form -->
+              <form id="payment-form" class="payment-form">
+                  <h1>Enter Card Details</h1>
+                  <div class="form-fields" id="form-fields">
+                      <input type="text" 
+                            id="name" name="name" class="name" 
+                            placeholder="Enter your name" required />
+                      <input type="text"
+                             id="card-number" name="card-number" class="card-number" 
+                             placeholder="Enter card number" required />
+                      <input type="text"
+                             id="cvv" name="cvv" class="cvv" 
+                             placeholder="Enter your CVV" required />
+                  </div>
+                  <button type="button" class="pay-button" id="pay-button">Pay</button>
+              </form>
+        </main>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+
